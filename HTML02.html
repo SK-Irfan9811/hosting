@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>
+            About text
+        </title>
+        <style>
+            tfoot{
+                background-color: rgb(128, 128, 208);
+            }
+            tr{
+                border: none;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>
+            this is heading
+        </h1>
+        <em>
+            This is the emphasized text
+        </em>
+        <strong>
+            This is strong text
+        </strong>
+        <b>
+            this is bold text
+        </b>
+        <hr size="5" noshade="">
+        <h1>About Lists</h1>
+        <h3>There are two types of lists</h3>
+        <strong>*Ordered and unordered*</strong>
+        <h4>Ordered</h4>
+        <hr size="2">
+        <ol start="0" type="i">
+            <li>First
+            </li>
+            <li>
+                Second
+           </li>
+            <li>Third</li>
+            <li>Fourth
+            </li>
+            <li>
+                Fifth
+            </li>
+        </ol>
+        <hr>
+        <ul >
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ul>
+    <hr>
+    <h2>We do also have description lists</h2>
+         <dl>
+            <dt>
+                Virat
+            </dt>
+            <dd>-Number One Player</dd>
+            <dd>-Fittest player</dd>
+            <dt>
+                Irfan
+            </dt>
+            <dd>
+                -active personality
+            </dd>
+            <dd>-Fittest Student</dd>
+            <dd>-Fitness Freak</dd>
+            <dd>-Mentor of Virat</dd>
+            
+         </dl>
+         <hr>
+         <h1>Lets talk about images</h1>
+         <p>The img tag just create a space to represnt the image from its source</p>
+         <p> <a href="https://www.google.com/"> <img src="2.jpg" alt="tree pic"></a>This is awesome</p>
+         <a href="https://youtube.com">click me for entertainment</a>
+         <h1>TABLES</h1>
+         <table border="1">
+            <tr>
+                <th>First</th>
+                <th>Second</th>
+            </tr>
+            <tr>
+                <td>Irfan</td>
+                <td>SK</td>
+            </tr>
+
+         </table>
+         <table  border="3" cellspacing="3" >
+            <colgroup>
+                <col span="2" style="background-color: pink;">
+                <col span="1" style="background-color: rgba(243, 3, 3, 0.782);">
+            </colgroup>
+            <thead>
+                <tr>
+                   <th>SNO</th>
+                   <th>SUB NAME</th>
+                   
+                   <th>marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>TELUGU</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>HINDI</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ENGISH</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>MATHS</td>
+                    <td>97</td>
+                </tr> 
+            </tbody>
+            <tfoot>
+                <td colspan="2"><p style="margin-left:70px">Total = </p></td>
+                <td>390</td>
+            </tfoot>
+         </table>
+         <h1>
+            FORMS
+         </h1>
+         <hr size="3" noshade>
+         <form  action="mailto:isk22802@gmail.com" onsubmit="validateForm()" name="myForm" action="form.html" method="post">
+            <label>NAME</label>
+            <br>
+
+            <input type="text" name="name"  placeholder="john"><br>
+            <label>PASSWORD</label><br>
+            <input type="password" placeholder="***"><br>
+            <input type="radio" id="html" name="r">
+            <label for="html">HTML
+            </label>
+            <input type="radio" id="css" name="r">
+            <label for="css">CSS</label>
+            <input type="radio" id="js" name="r">
+            <label for="js">JS</label>
+            <br>
+            <input type="checkbox" id="me" name="n">
+            <label for="me">ME</label>
+            <input type="checkbox" id="you" name="n">
+            <label for="you">YOU</label>
+            <input type="checkbox" id="us" name="n">
+            <label for="us">US</label>
+            <br>
+            <input type="submit" value="submit">
+            <input type="color" >
+            <input type="range">
+            <input type="file">
+            <input type="date">
+            <input type="radio">
+            <textarea name="n" cols="10" rows="10"></textarea>
+        </form>
+
+    </body>
+    <script type="text/javascript"src="HTML02.js">
+    </script>
+</html>
